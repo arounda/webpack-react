@@ -1,0 +1,24 @@
+@import "./scss/reset.scss";
+@import "./scss/fonts.scss";
+@import "./scss/variables.scss";
+@import "./scss/mixins.scss";
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    height: 100%;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center; 
+}
+.title{
+    grid-column: 2/6;
+    font-family: 'Indie',sans-serif;
+    font-size: 2rem;
+}
+.image{
+    grid-column: 3/5;
+}
